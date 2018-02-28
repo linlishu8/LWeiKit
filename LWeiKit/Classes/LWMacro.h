@@ -132,13 +132,6 @@ typedef void (^VoidBlock)();
 #define HexRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 #define HexRGBAlpha(rgbValue, a) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:(a)]
 
-
-#define colorViewBackGround HexRGB(0xf0f2f5) //灰色
-#define colorNavBackGround HexRGB(0xf9f8f9) //导航栏背景
-#define colorFontTitle HexRGB(0x333333) //标题文字
-#define colorFontNormal HexRGB(0xababab) //普通文字
-#define colorTableViewCell HexRGB(0xf8f8f8) //表格背景
-
 //弱引用/强引用
 #define KWEAK_SELF(type)   __weak typeof(type) weak##type = type;
 #define KSTRONG_SELF(type) __strong typeof(type) type = weak##type;
