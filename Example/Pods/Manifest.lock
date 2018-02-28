@@ -1,0 +1,16 @@
+PODS:
+  - LWeiKit (0.1.0)
+
+DEPENDENCIES:
+  - LWeiKit (from `../`)
+
+EXTERNAL SOURCES:
+  LWeiKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LWeiKit: 4708f549d9876cd2f1d5154980168ad3cbf07c08
+
+PODFILE CHECKSUM: bed18e00e5f069a5dca19bd387679c6b033fcb83
+
+COCOAPODS: 1.4.0

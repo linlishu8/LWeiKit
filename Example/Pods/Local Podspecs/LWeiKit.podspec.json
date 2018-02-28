@@ -1,0 +1,22 @@
+{
+  "name": "LWeiKit",
+  "version": "0.1.0",
+  "summary": "LWeiKit.",
+  "description": "TODO: 常用工具库.",
+  "homepage": "https://github.com/linlishu8/LWeiKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "linlishu8": "linlishu8@163.com"
+  },
+  "source": {
+    "git": "https://github.com/linlishu8/LWeiKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LWeiKit/Classes/**/*"
+}

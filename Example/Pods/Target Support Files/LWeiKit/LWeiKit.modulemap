@@ -1,0 +1,6 @@
+framework module LWeiKit {
+  umbrella header "LWeiKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
