@@ -69,15 +69,4 @@
     self.attributedText = attributedString;
 }
 
-
-- (UILabel *)initCIBTitleLabel {
-    UILabel *label = [UILabel label].normalFont(CIBBoldFont(14)).normalColor(colorFontTitle);
-    return label;
-}
-
-- (UILabel *)initCIBNormalLabel {
-    UILabel *label = [UILabel label].normalFont(CIBFont(14)).normalColor(colorFontNormal);
-    return label;
-}
-
 @end
