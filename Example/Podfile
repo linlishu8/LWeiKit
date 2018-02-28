@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LWeiKit_Example' do
+  pod 'LWeiKit', :path => '../'
+
+  target 'LWeiKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
